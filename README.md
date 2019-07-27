@@ -66,3 +66,10 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+1.json-server服务器
+    全局安装：cnpm i -g json-server
+    在根目录新建db.json文件，写数据
+    监控db.json文件：json-server --watch db.json --port 3004
+    可以在postman 测下  resources 下边的链接
+2.
